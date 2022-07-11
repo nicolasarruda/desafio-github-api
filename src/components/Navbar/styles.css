@@ -1,0 +1,36 @@
+.main-nav {
+    min-width: 320px;
+    height: 62px;
+    margin: 0;
+    background-color: #1890FF;
+}
+
+.container-fluid {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.container-fluid h1 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 576px) {
+    .container-fluid {
+        padding-left: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-fluid {
+        padding-left: 35px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-fluid {
+        padding-left: 45px;
+    }
+}

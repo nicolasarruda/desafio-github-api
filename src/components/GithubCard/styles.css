@@ -1,0 +1,149 @@
+.card-container {
+    padding: 5px 5px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    height: 280px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px; 
+}
+
+.card-image-container {
+    height: 150px;
+    width: 150px;
+}
+
+.card-image-container img {
+    height: 150px;
+}
+
+.card-content-container {
+    margin-top: 3px;
+    width: 247px;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    padding: 3px 5px 9px 5px;
+}
+
+.card-content-container h1 {
+    font-size: 14px;
+    color: #1890FF;
+    margin-bottom: 5px;
+}
+
+.card-content-container p {
+    font-size: 12px;
+    border: 1px solid #D9D9D9;
+    padding: 2px;
+    color: #737373;
+}
+
+.card-content-container p a {
+    color: #0029FF;
+}
+
+.card-content-container p span {
+    font-weight: 700;
+}
+
+@media (min-width: 576px) {
+    .card-container {
+        padding: 10px 10px;
+        height: 315px;
+    }
+
+    .card-image-container {
+        height: 150px;
+        width: 160px;
+    }
+
+    .card-image-container img {
+        height: 150px;
+    }
+    
+    .card-content-container {
+        margin-top: 5px;
+        height: 120px;
+        padding: 4px 15px 4px 15px;
+    }
+
+    .card-content-container h1 {
+        font-size: 14px;
+    }
+
+    .card-content-container p {
+        font-size: 12px;
+        padding: 2px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .card-container {
+        padding: 44px 30px 44px 30px;
+        height: 246px;
+        min-width: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-image-container {
+        height: 247px;
+        width: 247px;
+        margin: 0;
+        margin-left: 8px;
+    }
+
+    .card-image-container img {
+        height: 247px;
+        width: 247px;
+    }
+
+    .card-content-container {
+        height: 247px;
+        width: calc(60% - 90px);
+        margin-top: 0;
+        margin-left: 29px;
+        margin-right: 10px;
+        box-sizing: border-box;
+    }
+
+    .card-content-container h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 8px;
+    }
+
+    .card-content-container p {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .card-content-container p a {
+        word-break: break-all;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-container {
+        min-width: 700px;
+    }
+
+    .card-content-container {
+        height: 247px;
+        width: 60%;
+        margin-left: 29px;
+        margin-right: 25px;
+    }
+
+    .card-content-container p {
+        font-size: 16px;
+        padding: 8px 10px;
+        margin-bottom: 5px;
+    }
+}
+

@@ -1,0 +1,14 @@
+.btn-container button {
+    background-color: #1890FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    width: 101px;
+    height: 40px;
+    text-shadow: none;
+    border-radius: 4px;
+    border: none;
+    font-style: normal;
+    cursor: pointer;
+}

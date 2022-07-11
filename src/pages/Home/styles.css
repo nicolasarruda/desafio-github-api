@@ -1,0 +1,95 @@
+.home-container {
+    padding: 10px 20px;
+}
+
+.home-content-container {
+    min-width: 250px;
+}
+
+.home-content-container h1 {
+   color: #000000;
+   font-size: 28px;
+   height: 32px;
+   margin-bottom: 5px;
+   letter-spacing: 0.02em;
+}
+
+.home-content-container p {
+    color: #7E7E7E;
+    letter-spacing: 0.02em;
+    height: 16px;
+    font-size: 14px;
+}
+
+.home-btn-container {
+    margin-top: 20px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: #7E7E7E;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+@media (min-width: 576px) {
+    .home-container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .home-content-container h1 {
+        height: 40px;
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .home-content-container p {
+        height: 24px;
+        font-size: 17px;
+    }
+
+    .btn-container {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-container {
+        padding: 20px 35px;
+    }
+
+    .home-content-container h1 {
+        height: 50px;
+        font-size: 40px;
+        margin-bottom: 12px;
+    }
+
+    .home-content-container p {
+        height: 30px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-container {
+        padding: 30px 45px;
+    }
+
+    .home-content-container h1 {
+        height: 64px;
+        font-size: 48px;
+    }
+
+    .home-content-container p {
+        height: 40px;
+        font-size: 24px;
+    }
+}
